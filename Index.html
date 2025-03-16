@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <Header class="header">
+
+        <div class="menu container">
+            <a href="#" class="logo">MyDelights</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#carta">Platos a la carta</a></li>
+                    <li><a href="#dia">Platos del día</a></li>
+                    <li><a href="#bebidas">bebidas</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="login.html" class="btn-login">login</a></li>
+                    
+                </ul>
+
+            </nav>
+        </div>
+
+        
+    </Header>
+
+
+    <section class="inicio" id="inicio">
+        <div class="inicio">
+
+            <div class="saludo-content">
+                <h1>Bienvenidos</h1>
+            </div>
+            
+            <div class="inicio-1 container">
+            <h1>My delights</h1>
+            <p>
+                En My Delights, transformamos cada comida en una experiencia inolvidable. Nos especializamos en ofrecer platillos elaborados con ingredientes frescos y de la más alta calidad, combinando sabores auténticos con un toque de creatividad. Nuestro ambiente acogedor y nuestro servicio excepcional hacen que cada visita sea única. Ya sea que busques un almuerzo especial, una cena romántica o simplemente un momento de placer gastronómico, en My Delights encontrarás el lugar perfecto para disfrutar de lo mejor de la cocina.
+            </p><br>
+            <p>    
+            Déjate sorprender por nuestros sabores y vive la experiencia My Delights!  
+            </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="buscador-platos" id="carta">
+        <h2>Platos a la carta</h2>
+
+        <p>Explora nuestra exquisita selección de platos a la carta, cuidadosamente preparados con los mejores ingredientes y un toque especial de nuestra cocina. </p>
+        
+        <label for="plato-select">Selecciona un plato:</label>
+        <select id="plato-select">
+            <option value="">-- Selecciona un plato --</option>
+            <option value="filet_mignon">Filet Mignon</option>
+            <option value="salmon_maracuya">Salmón en salsa de maracuyá</option>
+            <option value="pollo_naranja">Pollo a la naranja al horno</option>
+        </select>
+    
+        <div id="plato-info" class="plato-info container">
+            
+            <div class="carta-2">
+                <img id="plato-imagen" src="" alt="" style="width:400px; display: none;">
+            </div>
+
+            <div class="carta-1">
+            <h3 id="plato-nombre"></h3>
+            <p id="plato-descripcion"></p>
+            <h4 id="plato-precio"></h4>
+            </div>
+        </div>        
+    </section>
+
+
+    <section class="dia" id="dia" >
+        <div class="dia-content container">
+            <h2>Platos del día</h2>
+            <div class="platos-group">
+
+                <div class="servicios">
+                    <h3>sopas</h3>
+                    <ul>
+                    <li>Caldo de costilla</li>
+                    <li>Sancocho de gallina</li>
+                    <li>consomé de pollo</li>
+                    <li>crema de espinaca</li>
+                </ul>
+                </div>
+                <div class="servicios">
+                    <h3>Principios</h3>
+                    <ul>
+                    <li>frijoles</li>
+                    <li>papas al ajillo</li>
+                    <li>verduras al vapor</li>
+                    <li>yucas fritas</li>
+                </ul>
+                </div>
+                <div class="servicios">
+                    <h3>Proteina</h3>
+                    <ul>
+                    <li>Carne asada</li>
+                    <li>Chuleta de cerdo</li>
+                    <li>Pechuga a la plancha</li>
+                    <li>Sobre barriga</li>
+                </ul>
+                </div>
+            
+            </div>
+            <div class="info">
+                <P>Todos los platos vienen acompañados de ensalada de tomate, lechuga, pepino y zanahoria y el jugo del día</P>
+                <p>Almuerzo completo: $18.000</p>
+                <p>Bandeja: $15.000</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bebidas" id="bebidas" >
+
+        <div class="bebida-content container">
+            <h2>Bebidas</h2>
+            
+            <div class="bebidas-group">
+                
+               <div class="bebida">
+                <h3>Limonadas</h3>
+                <ul>
+                <li>Natural</li>
+                <li>Cerezada</li>
+                <li>Coco</li>
+            </ul>
+                <h4>Precio: $8.000</h4>
+               </div> 
+               
+               <div class="bebida">
+                <h3>Jugos naturales</h3>
+                <ul>
+                <li>Mango</li>
+                <li>Mora</li>
+                <li>Naranja</li>
+                <li>Maracuya</li>
+            </ul>
+                <h4>Precio:
+                    <ul>
+                   <li>En agua:  $9.000</li>
+                   <li>En leche: $12.000</li> 
+                </ul>
+            </h4>
+               </div>
+
+                <div class="bebida">
+                <h3>Gaseosas(Personal)</h3>
+                <ul>
+                    <li>Manzana</li>
+                    <li>Toronja</li>
+                    <li>Cola</li>
+                </ul>
+                <h4>Precio: 7.000</h4>
+               </div>
+
+               <div class="bebida">
+                <h3>Agua</h3>
+                <h4>Precio: 5.000</h4><br>
+                <br>
+              </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="eventos" id="eventos">
+        <div class="evento-content container">
+            <h2>Eventos</h2>
+
+            <p>
+                En My Delights, ofrecemos el ambiente perfecto para todo tipo de eventos. Ya sea una celebración especial o una reunión de negocios, nos encargamos de que cada detalle sea inolvidable.
+            </p>
+            <div class="eventos">
+                <h3>Eventos Sociales</h3>
+                <p>Celebra momentos especiales con un toque de sabor y elegancia. Contamos con espacios acogedores y un menú exclusivo para cada ocasión.</p>
+                <ul>
+                <li>Cumpleaños</li>
+                <li>Aniversarios</li>
+                <li>Bodas</li>
+                <li>bautizos y primeras comuniones</li>
+                <li>reuniones familiares</li>
+            </ul>
+            </div>
+            <div class="evento img">
+                
+                <img src="imagenes/Bodas.png" alt="">
+            </div>
+
+            <div class="eventos">
+                <h3>Eventos Empresariales</h3>
+                <p>Brindamos un servicio profesional para reuniones corporativas, asegurando una experiencia de calidad para tus invitados.</p>
+                <ul>
+                <li>Cenas de negocios</li>
+                <li>Lanzamientos de producto</li>
+                <li>Conferencias y Capacitaciones</li>
+                <li>Fiestas de fin de año</li>
+                <li>reuniones de equipo</li>
+            </ul>
+
+
+
+            </div>
+
+            <div class="evento img">
+                <img class="evento-img" src="imagenes/lanzamiento.png" alt="">
+            </div>
+
+            <div class="eventos">
+                <h3>Banquetes y Buffet en My Delights</h3>
+
+                <p>En My Delights, ofrecemos opciones gastronómicas personalizadas para todo tipo de eventos. Disfruta de una experiencia culinaria excepcional con nuestro servicio de banquete y buffet, adaptado a tus necesidades.</p>
+                <h4>Banquete</h4>
+                <ul>
+                <li>Ideal para bodas, cenas de gala y eventos empresariales</li>
+                <li>Platos servidos a la mesa con atención personalizada</li>
+                <li>Menú estructurado con entrada, plato fuerte y postre</li>
+                <li>Ambiente sofisticado para experiencias memorables</li>
+            </ul>
+
+            </div>
+            <div class="evento img">
+
+                <img class="evento img" src="imagenes/banquete.png" alt="">
+
+            </div>
+
+            <div class="eventos">
+
+                <h4>Buffet</h4>
+                <ul>
+                <li>Perfecto para reuniones familiares, eventos corporativos y celebraciones informales</li>
+                <li>Amplia selección de platos</li>
+                <li>Servicio de auto servicio en estaciones temáticas</li>
+                <li>Opciones gastronomicas adaptadas a diferentes grupos</li>
+            </ul>
+
+            </div>
+
+            <div class="evento img">
+
+                <img class="evento img" src="imagenes/buffet.png" alt="">
+
+            </div>
+
+            <div class="eventos2">
+                <h3>Horarios</h3>
+                <ul>
+                    <li>Desayuno: 7:00 a.m - 11:00 a.m</li>
+                    <li>Almuerzo: 12:00 p.m - 3:30 p.m</li>
+                    <li>Cena: 6:00 p.m - 10:00 p.m</li>
+                </ul>
+            </div>
+
+            <div class="eventos">
+
+            <p>Reserva tu evento con nosotros y hazlo inolvidable. Contáctanos para personalizar cada detalle según tus necesidades.</p>
+            </div>
+
+
+
+            
+        </div>
+
+    </section>
+
+    <section class="Contacto" id="contacto">
+        <div class="contacto-content container">
+            <h2>Contacto</h2>
+    
+            <div class="contacto-item">
+                <img src="imagenes/whatsapp.png" alt="WhatsApp">
+                <h4>+57 3125258789</h4>
+            </div>
+    
+            <div class="contacto-item">
+                <img src="imagenes/facebook.png" alt="Facebook">
+                <h4><a href="https://www.facebook.com/MyDelights" target="_blank">Facebook/MyDelights</a></h4>
+            </div>
+    
+            <div class="contacto-item">
+                <img src="imagenes/instagram.png" alt="Instagram">
+                <h4>@MyDelights</h4>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <footer class="footer">
+
+        <div class="footer-content container">
+            <p>Derechos de autor &copy; 2025 - My Delights</p>            
+
+        </div>
+
+        
+    </footer>
+
+    <script>
+        document.getElementById('plato-select').addEventListener('change', function() {
+            const platos = {
+                "filet_mignon": {
+                    nombre: "Filet Mignon",
+                    imagen: "imagenes/filet-mignon.png",
+                    descripcion: "Delicado corte de lomo fino de res, sellado a la perfección en mantequilla y aromatizado con ajo y romero. Servido con una suave salsa de vino tinto y acompañado de puré de papas cremoso y vegetales salteados. Una experiencia exquisita para los amantes de la carne.",
+                    precio: "Precio: $60.000"
+                },
+                "salmon_maracuya": {
+                    nombre: "Salmón en Salsa de Maracuyá",
+                    imagen: "imagenes/salmon-salsa-maracuya_27550-6421.png",
+                    descripcion: "Exquisito lomo de salmón a la plancha, cocinado a la perfección y bañado en una suave y aromática salsa de maracuyá. Acompañado de puré de papa cremoso y vegetales al vapor. Un equilibrio perfecto entre dulzura y frescura que deleitará tu paladar.",
+                    precio: "Precio: $48.000"
+                },
+                "pollo_naranja": {
+                    nombre: "Pollo a la Naranja al Horno",
+                    imagen: "imagenes/Polloalanaranja2.png",
+                    descripcion: "Jugoso pollo horneado lentamente, bañada en una deliciosa salsa de naranja natural con un toque de especias. Acompañada de arroz aromático y vegetales salteados. Un plato equilibrado con notas dulces y cítricas que resaltan su sabor único.",
+                    precio: "Precio: $35.000"
+                }
+            };
+    
+            let platoSeleccionado = this.value;
+            let infoPlato = platos[platoSeleccionado];
+    
+            if (infoPlato) {
+                document.getElementById('plato-nombre').textContent = infoPlato.nombre;
+                document.getElementById('plato-imagen').src = infoPlato.imagen;
+                document.getElementById('plato-imagen').style.display = "block";
+                document.getElementById('plato-descripcion').textContent = infoPlato.descripcion;
+                document.getElementById('plato-precio').textContent = infoPlato.precio;
+            } else {
+                document.getElementById('plato-nombre').textContent = "";
+                document.getElementById('plato-imagen').style.display = "none";
+                document.getElementById('plato-descripcion').textContent = "";
+                document.getElementById('plato-precio').textContent = "";
+            }
+        });
+    </script>
+    
+    
+</body>
+</html>
